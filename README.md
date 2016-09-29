@@ -5,7 +5,7 @@
     * tsconfig.json
     * webpack.config.js
 ## TypeScript 速成
-     这部分内容可以参考这篇文章：[TypeScript](https://github.com/lijiakof/typescript);
+这部分内容可以参考这篇文章：[TypeScript](https://github.com/lijiakof/typescript);
 ## Component & Directive
     * Component
     * Directive
