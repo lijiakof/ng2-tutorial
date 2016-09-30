@@ -12,6 +12,9 @@ const ROUTES: Routes = [{
     path: 'list',
     component: List
 }, {
+    path: 'list/:offset/:limit',
+    component: List
+}, {
     path: 'detail',
     component: Detail
 }]

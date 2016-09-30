@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
     selector: 'list',
@@ -8,11 +9,14 @@ import { Component } from '@angular/core';
                 <a routerLink="/detail">{{item.name}}</a>
             </li>
         </ul>
+        <div>limit:{{limit}}&offset:{{offset}}</div>
     `
 })
-export class List {
+export class List implements OnInit {
     list: Array<any>;
-    constructor(){
+    limit: number;
+    offset: number;
+    constructor(private route: ActivatedRoute){
         this.list = [{
             name: 'jay',
             age: 20
@@ -23,5 +27,13 @@ export class List {
             name: 'qq',
             age: 18
         }];
+    }
+
+    ngOnInit() {
+        this.route.params.subscribe(params => {
+            this.limit = params['limit'];
+            this.offset = params['offset'];
+            console.log(params);
+        });
     }
 }

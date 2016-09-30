@@ -10,7 +10,7 @@
     * Component
     * Data Binding
     * Directive
-        * 如何使用
+        * How to use
         * 内置指令：
             * *ngFor
             * *ngIf
@@ -29,7 +29,7 @@
         * Input & Output
 ## Service
 ## Routing
-    * 如何使用
+    * How to use
         * index.html: <base href="/" />
         * App Component: <router-outlet></router-outlet>
         * routing.ts
@@ -38,11 +38,27 @@
 ## Form
     * [(ngModel)]
 ## HTTP
-    * 如何使用
+    * How to use
+        * <meta charset="utf8">
+        * import 'rxjs/add/operator/map';
+        * import { Http, Headers, URLSearchParams } from '@angular/http';
+    * set Headers
+    * json conver to URLSearchParams
+    * httpInterceptor
 ## Pipe
-    * 如何使用
+    * How to use
     * 内置管道
+        * date
+        * number
+        * currency
+        * json
+        * slice
+        * percent
+        * async
     * 自定义管道
+        * import { Pipe, PipeTransform } from '@angular/core';
+        * CustomePipe implements PipeTransform
+        * declarations: [ Pipes, CustomePipe ]
 ## Dependency Injection
 ## Webpack
 ## WebApp 项目搭建
