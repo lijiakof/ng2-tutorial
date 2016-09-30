@@ -34,10 +34,10 @@
 
 ## Routing
 * How to use
-    * index.html: <base href="/" />
-    * App Component: <router-outlet></router-outlet>
+    * index.html: `<base href="/" />`
+    * App Component: `<router-outlet></router-outlet>`
     * routing.ts
-    * routerLink="/"
+    * `routerLink="/"`
 * 跳转和页面之间的值传递
 
 ## Form
@@ -45,9 +45,9 @@
 
 ## HTTP
 * How to use
-    * <meta charset="utf8">
-    * import 'rxjs/add/operator/map';
-    * import { Http, Headers, URLSearchParams } from '@angular/http';
+    * `<meta charset="utf8">`
+    * `import 'rxjs/add/operator/map';`
+    * `import { Http, Headers, URLSearchParams } from '@angular/http';`
 * set Headers
 * json conver to URLSearchParams
 * httpInterceptor
@@ -63,9 +63,9 @@
     * percent
     * async
 * 自定义管道
-    * import { Pipe, PipeTransform } from '@angular/core';
-    * CustomePipe implements PipeTransform
-    * declarations: [ Pipes, CustomePipe ]
+    * `import { Pipe, PipeTransform } from '@angular/core';`
+    * `CustomePipe implements PipeTransform`
+    * `@NgModule({declarations: [ Pipes, CustomePipe ]})`
 
 ## Dependency Injection
 
