@@ -88,4 +88,4 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 
 ## Webpack
 
-## WebApp 项目搭建
+## Use Webpack build the Angular 2 project
