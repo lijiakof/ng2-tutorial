@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'child-component',
@@ -19,7 +19,7 @@ import { Component } from '@angular/core'
         }
     `]
 })
-export class ChildComponent{
+export class ChildComponent {
     name: string;
     result: string;
 }

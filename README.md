@@ -8,27 +8,34 @@
 ## TypeScript 速成
 这部分内容可以参考这篇文章：[TypeScript](https://github.com/lijiakof/typescript)
 
-## Component & Directive
-* Component
+## Component
+* How to use
+    * `import { Component } from '@angular/core';`
+    * `export class AppComponent { }`
+    * `import { AppComponent } from '';`
+    * `@NgModule({declarations: [AppComponent]})`
 * Data Binding
-* Directive
-    * How to use
-    * 内置指令：
-        * *ngFor
-        * *ngIf
-        * [ngStyle]
-        * [ngClass]
-        * [NgPlural]
-        * *NgPluralCase
-        * [ngSwitch]
-        * *NgSwitchCase
-        * *NgSwitchDefault
-        * [NgTemplateOutlet]
-        * (click)
-        * [(ngModel)]
-    * 自定义指令
 * Component 的嵌套
     * Input & Output
+
+## Directive
+* How to use
+* attribute directives
+    * [ngStyle]
+    * [ngClass]
+    * [NgPlural]
+    * [ngSwitch]
+    * [NgTemplateOutlet]
+* structural directives
+    * *ngFor
+    * *ngIf
+    * *NgPluralCase
+    * *NgSwitchCase
+    * *NgSwitchDefault
+* other：
+    * (click)
+    * [(ngModel)]
+* Custome Directive
 
 ## Service
 
@@ -62,10 +69,12 @@
     * slice
     * percent
     * async
-* 自定义管道
+* Custome Pipe
     * `import { Pipe, PipeTransform } from '@angular/core';`
     * `CustomePipe implements PipeTransform`
     * `@NgModule({declarations: [ Pipes, CustomePipe ]})`
+
+## Input & Output
 
 ## Dependency Injection
 
