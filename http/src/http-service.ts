@@ -6,7 +6,7 @@ import { Http, Headers, URLSearchParams } from '@angular/http';
 @Injectable()
 export class HttpService {
     constructor(private http: Http) { }
-
+    
     getPlaces(params) {
         let p = new URLSearchParams();
         for(let key in params) {
@@ -14,7 +14,7 @@ export class HttpService {
         }
         let headers = new Headers();
         //headers.append('Content-Type', 'application/json;');
-
+        
         return this.http.get("http://api.baichanghui.com/productservice/places/search", {
             search: p,
             headers: headers

@@ -1,9 +1,13 @@
 # Angular 2 Tutorial
+This is my first notes use English.
 
 ## Setup the development environment
+* install node
 * package.json
 * tsconfig.json
 * webpack.config.js
+
+You can refer to:[Angular 2 Webpack Starter](https://github.com/lijiakof/ng2-webpack-starter)
 
 ## TypeScript Quick Start
 Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
@@ -44,6 +48,13 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 
 ## Service
 * How to create
+    * `export interface DataModel`
+    * mock up data
+    * `import { Injectable } from '@angular/core';`
+* How to use
+    * `@Injectable() export class DataService {}`
+    * `@Component({ providers: [DataService] })`
+    * `this.dataService.get().then(data => this.datas = data);`
 
 ## Routing
 * How to use
