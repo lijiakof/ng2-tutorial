@@ -1,12 +1,12 @@
-# Angular 2 入门指南
+# Angular 2 Tutorial
 
-## 开发环境搭建
+## Setup the development environment
 * package.json
 * tsconfig.json
 * webpack.config.js
 
-## TypeScript 速成
-这部分内容可以参考这篇文章：[TypeScript](https://github.com/lijiakof/typescript)
+## TypeScript Quick Start
+Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 
 ## Component
 * How to create
@@ -15,7 +15,7 @@
     * `import { AppComponent } from '';`
     * `@NgModule({declarations: [AppComponent]})`
 * Data Binding
-* Component 的嵌套
+* Nesting component
     * Input & Output
 
 ## Directive
@@ -51,7 +51,7 @@
     * App Component: `<router-outlet></router-outlet>`
     * routing.ts
     * `routerLink="/"`
-* 跳转和页面之间的值传递
+* Routing with parameters
 
 ## Form
 * [(ngModel)]
@@ -68,7 +68,7 @@
 ## Pipe
 * How to use
     * `template:'<div>{{ data | pipe }}</div>'`
-* 内置管道
+* Build-in Pipe
     * date
     * number
     * currency
