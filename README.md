@@ -1,5 +1,21 @@
 # Angular 2 Tutorial
-This is my first notes use English.
+*This is my first notes use English.*
+
+In this article ,you can learnning:
+
+* How to setup the development environment
+* TypeScript
+* How to use component
+* How to use directive
+* How to use service
+* How to use router
+* Forms
+* How to use http
+* How to use pipe
+* Input & Output
+* Dependency Injection
+* Webpack
+* How to build the Angular 2 project with Webpack
 
 ## Setup the development environment
 * install node
