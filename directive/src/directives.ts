@@ -27,7 +27,7 @@ import { CustomeDirective } from './custome-directive'
         </div>
         <div>
             Custome Directive 
-            <p [highlight]="red">Highliht me</p>
+            <p [highlight]>Highliht me</p>
         </div>
     `
 })

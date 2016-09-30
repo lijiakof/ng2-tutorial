@@ -9,9 +9,9 @@
 这部分内容可以参考这篇文章：[TypeScript](https://github.com/lijiakof/typescript)
 
 ## Component
-* How to use
+* How to create
     * `import { Component } from '@angular/core';`
-    * `export class AppComponent { }`
+    * `@Component({}) export class AppComponent { }`
     * `import { AppComponent } from '';`
     * `@NgModule({declarations: [AppComponent]})`
 * Data Binding
@@ -36,8 +36,14 @@
     * (click)
     * [(ngModel)]
 * Custome Directive
+    * `import { Directive, ElementRef, HostListener, Input, Renderer } from '@angular/core';`
+    * `@Directive({ selector: 'customeDirective' }) export class CustomeDirective{ }`
+    * `@Input() selectorName: string;`
+    * `@NgModule({declarations: [ CustomeDirective ]})`
+    * `<div [selectorName]></div>`
 
 ## Service
+* How to create
 
 ## Routing
 * How to use
@@ -61,6 +67,7 @@
 
 ## Pipe
 * How to use
+    * `template:'<div>{{ data | pipe }}</div>'`
 * 内置管道
     * date
     * number
@@ -71,8 +78,9 @@
     * async
 * Custome Pipe
     * `import { Pipe, PipeTransform } from '@angular/core';`
-    * `CustomePipe implements PipeTransform`
+    * `@Pipe({ selector: 'customePipe' }) export class CustomePipe implements PipeTransform{ }`
     * `@NgModule({declarations: [ Pipes, CustomePipe ]})`
+    * `template:'<div>{{ data | customePipe }}</div>'`
 
 ## Input & Output
 

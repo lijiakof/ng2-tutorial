@@ -9,8 +9,7 @@ export class CustomeDirective {
     @Input() highlight: string;
 
     @HostListener('mouseenter') onMouseEnter(){
-        console.log(this.highlight);
-        this.highlightIt(this.highlight || 'red');
+        this.highlightIt('red');
     }
 
     @HostListener('mouseleave') onMouseLeave(){
