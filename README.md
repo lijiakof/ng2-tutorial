@@ -22,6 +22,9 @@ In this article ,you can learnning:
 * package.json
 * tsconfig.json
 * webpack.config.js
+* npm install
+* npm run build
+* npm run serve
 
 You can refer to:[Angular 2 Webpack Starter](https://github.com/lijiakof/ng2-webpack-starter)
 
@@ -40,13 +43,13 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 
 ## Directive
 * How to use
-* attribute directives
+* Attribute directives
     * [ngStyle]
     * [ngClass]
     * [NgPlural]
     * [ngSwitch]
     * [NgTemplateOutlet]
-* structural directives
+* Structural directives
     * *ngFor
     * *ngIf
     * *NgPluralCase
@@ -81,7 +84,12 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 * Routing with parameters
 
 ## Form
-* [(ngModel)]
+* `import { FormsModule } from '@angular/forms';`
+* `NgModule({ imports: [FormsModule] })`
+* `import { NgForm } from '@angular/forms';`
+* `<form #f="ngForm" (ngSubmit)="onSubmit(f)">`
+* `<input type="text" [(ngModel)]="user.name" name="name" required #name="ngModel" />`
+* `<button [disabled]="!f.form.valid" type="submit">submit</button>`
 
 ## HTTP
 * How to use
