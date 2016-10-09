@@ -20,8 +20,7 @@ module.exports = {
                     flags: 'g'
                 },
                 include: [path.resolve(__dirname, "./src")]
-            },
-
+            }
         ],
         loaders: [
             { test: /\.ts$/, loader: 'ts-loader' }

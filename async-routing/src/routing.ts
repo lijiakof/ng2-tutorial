@@ -1,7 +1,7 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { Index } from './app/index';
-
+//todo:hello jay
 const ROUTES: Routes = [{
     path: '',
     component: Index

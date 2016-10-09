@@ -138,5 +138,21 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 ## Dependency Injection
 
 ## Webpack
+* loaders
+    * string-replace-loader
+    * angular2-template-loader
+    * awesome-typescript-loader
+    * sass-loader (need node-sass)
+    * raw-loader
+    * autoprefixer postcss-loader
+* plugins
+    * html-webpack-plugin
+    * copy-webpack-plugin
+* dev tools
+    * webpack-dev-server
+    * webpack-dev-middleware
+* others
+    * __dirname: current module file‘s absolute path
+    * you'd butter use `path.resolve(__dirname, "app/folder")` to compatible win
 
 ## Use Webpack build the Angular 2 project
