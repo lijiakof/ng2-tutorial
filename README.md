@@ -82,6 +82,20 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
     * routing.ts
     * `routerLink="/"`
 * Routing with parameters
+* Async Routing
+    * setup webpack 2.0
+        * npm install webpack@2.1.0-beta.22
+        * npm install webpack-dev-server@2.1.0-beta.2
+        * npm install webpack-dev-middleware@1.6.1
+        * probably has some error: uninstall then install webpack & webpack-dev-server & webpack-dev-middlewar
+    * setup loader: string-replace-loader
+    * webpack.config.js
+        * preLoaders
+        * postLoaders
+        * exprContextCritical: false
+    * typings.d.ts
+    * create child module & component
+    * create async router: `loadChildren: () => System.import('./app/list.module')`
 
 ## Form
 * `import { FormsModule } from '@angular/forms';`
@@ -116,6 +130,8 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
     * `@Pipe({ selector: 'customePipe' }) export class CustomePipe implements PipeTransform{ }`
     * `@NgModule({declarations: [ Pipes, CustomePipe ]})`
     * `template:'<div>{{ data | customePipe }}</div>'`
+
+## Use with jQuery
 
 ## Input & Output
 
