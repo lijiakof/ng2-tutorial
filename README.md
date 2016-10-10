@@ -26,10 +26,10 @@ In this article ,you can learnning:
 * npm run build
 * npm run serve
 
-You can refer to:[Angular 2 Webpack Starter](https://github.com/lijiakof/ng2-webpack-starter)
+You can refer to: [Angular 2 Webpack Starter](https://github.com/lijiakof/ng2-webpack-starter)
 
 ## TypeScript Quick Start
-Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
+Please refer to: [TypeScript](https://github.com/lijiakof/typescript)
 
 ## Component
 * How to create
@@ -138,6 +138,8 @@ Please refer to：[TypeScript](https://github.com/lijiakof/typescript)
 ## Dependency Injection
 
 ## Webpack
+refer to: [Webpack](https://github.com/lijiakof/frontend-book/blob/master/share/webpack.md)
+
 * loaders
     * string-replace-loader
     * angular2-template-loader
