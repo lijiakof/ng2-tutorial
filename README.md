@@ -8,7 +8,7 @@ In this article ,you can learnning:
 * How to use component
 * How to use directive
 * How to use service
-* How to use router
+* How to use router 
 * Forms
 * How to use http
 * How to use pipe
