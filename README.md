@@ -159,3 +159,18 @@ refer to: [Webpack](https://github.com/lijiakof/frontend-book/blob/master/share/
     * you'd butter use `path.resolve(__dirname, "app/folder")` to compatible win
 
 ## Use Webpack build the Angular 2 project
+
+```
+|-config
+|-src
+|  |-app
+|  |-assets
+|  |-index.html
+|  |-main.ts
+|  |-routing.ts
+|-typings
+|-package.json
+|-tsconfig.json
+|-typings.json
+|-webpack.config.json
+```
